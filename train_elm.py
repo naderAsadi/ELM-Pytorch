@@ -4,7 +4,7 @@ import torchvision.datasets
 from torch.utils.data import DataLoader
 import torchvision.transforms as transforms
 
-from models import ELM, AEELM, to_onehot, load_model
+from models import ELM, to_onehot
 
 
 parser = argparse.ArgumentParser(description='Defensive GAN')
