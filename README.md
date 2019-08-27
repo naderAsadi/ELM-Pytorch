@@ -14,4 +14,6 @@ This code is implemented for MNIST dataset.
 Usage example:
 
     $ python train_elm.py --hsize 1000
+  
+--hsize represents the number of neurons in hidden layer.
     
